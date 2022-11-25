@@ -7,13 +7,13 @@ import com.example.project.bookmyshowbackend.dto.ResponseDto.MovieResponseDto;
 public interface MovieService {
 
     //Add movie
-    MovieResponseDto addMovie(MovieEntryDto movieEntryDto);
+    MovieResponseDto addMovie(MovieEntryDto movieEntryDto);     // method
 
 
     //get movie
-    MovieResponseDto getMovie(int id);
+    MovieResponseDto getMovie(int id);    // method
 
-    MovieNameAndIdObject getNameAndId(int id);
+    MovieNameAndIdObject getNameAndId(int id);  // method
 
 
 }

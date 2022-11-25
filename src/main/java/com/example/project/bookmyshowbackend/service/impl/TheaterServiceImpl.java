@@ -85,7 +85,10 @@ public class TheaterServiceImpl implements TheaterService {
 
     TheaterSeatsEntity getTheaterSeat(String seatName, int rate, SeatType seatType){
 
-        return TheaterSeatsEntity.builder().seatNumber(seatName).rate(rate).seatType(seatType).build();
+        return TheaterSeatsEntity.builder()
+                .seatNumber(seatName)
+                .rate(rate)
+                .seatType(seatType).build();
     }
 
     //Seperate function will be create...

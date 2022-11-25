@@ -24,7 +24,7 @@ public class MovieController {
 
         MovieResponseDto movieResponseDto = movieService.addMovie(movieEntryDto);
 
-        log.info("The movieResponseDto is ",movieResponseDto);
+        log.info("The movieResponseDto is: ", movieResponseDto);
         return movieResponseDto;
 
     }
@@ -36,6 +36,5 @@ public class MovieController {
 
         return movieNameAndIdObject;
     }
-
 
 }
